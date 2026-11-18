@@ -34,7 +34,7 @@ JP_SALES = 8
 GLOBAL_SALES = 9
 
 
-# find games with more htan 25 mil global sales
+# find games with more than 25 mil global sales
 for game in video_game_sales:
     if game[GLOBAL_SALES] > 25:
         print(game[NAME], game[GLOBAL_SALES])
